@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "string_view": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "span": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp"
+    }
+}
