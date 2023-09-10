@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "Z:/Cyrill/Programming/TicTacToe/main.cpp" "CMakeFiles/TicTacToe.dir/main.cpp.obj" "gcc" "CMakeFiles/TicTacToe.dir/main.cpp.obj.d"
+  "Z:/Cyrill/Programming/TicTacToe/src/main.cpp" "CMakeFiles/TicTacToe.dir/src/main.cpp.obj" "gcc" "CMakeFiles/TicTacToe.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

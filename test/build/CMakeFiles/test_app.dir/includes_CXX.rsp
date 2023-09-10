@@ -1,0 +1,1 @@
+-isystem Z:/Cyrill/Programming/TicTacToe/test/googletest/googletest/include -isystem Z:/Cyrill/Programming/TicTacToe/test/googletest/googletest -isystem Z:/Cyrill/Programming/TicTacToe/test/googletest/googlemock/include -isystem Z:/Cyrill/Programming/TicTacToe/test/googletest/googlemock

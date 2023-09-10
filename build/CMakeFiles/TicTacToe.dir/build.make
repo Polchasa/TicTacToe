@@ -68,28 +68,28 @@ include CMakeFiles/TicTacToe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TicTacToe.dir/flags.make
 
-CMakeFiles/TicTacToe.dir/main.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
-CMakeFiles/TicTacToe.dir/main.cpp.obj: Z:/Cyrill/Programming/TicTacToe/main.cpp
-CMakeFiles/TicTacToe.dir/main.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=Z:\Cyrill\Programming\TicTacToe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TicTacToe.dir/main.cpp.obj"
-	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/main.cpp.obj -MF CMakeFiles\TicTacToe.dir\main.cpp.obj.d -o CMakeFiles\TicTacToe.dir\main.cpp.obj -c Z:\Cyrill\Programming\TicTacToe\main.cpp
+CMakeFiles/TicTacToe.dir/src/main.cpp.obj: CMakeFiles/TicTacToe.dir/flags.make
+CMakeFiles/TicTacToe.dir/src/main.cpp.obj: Z:/Cyrill/Programming/TicTacToe/src/main.cpp
+CMakeFiles/TicTacToe.dir/src/main.cpp.obj: CMakeFiles/TicTacToe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=Z:\Cyrill\Programming\TicTacToe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
+	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TicTacToe.dir/src/main.cpp.obj -MF CMakeFiles\TicTacToe.dir\src\main.cpp.obj.d -o CMakeFiles\TicTacToe.dir\src\main.cpp.obj -c Z:\Cyrill\Programming\TicTacToe\src\main.cpp
 
-CMakeFiles/TicTacToe.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/main.cpp.i"
-	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Cyrill\Programming\TicTacToe\main.cpp > CMakeFiles\TicTacToe.dir\main.cpp.i
+CMakeFiles/TicTacToe.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TicTacToe.dir/src/main.cpp.i"
+	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Z:\Cyrill\Programming\TicTacToe\src\main.cpp > CMakeFiles\TicTacToe.dir\src\main.cpp.i
 
-CMakeFiles/TicTacToe.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/main.cpp.s"
-	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Cyrill\Programming\TicTacToe\main.cpp -o CMakeFiles\TicTacToe.dir\main.cpp.s
+CMakeFiles/TicTacToe.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TicTacToe.dir/src/main.cpp.s"
+	P:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Z:\Cyrill\Programming\TicTacToe\src\main.cpp -o CMakeFiles\TicTacToe.dir\src\main.cpp.s
 
 # Object files for target TicTacToe
 TicTacToe_OBJECTS = \
-"CMakeFiles/TicTacToe.dir/main.cpp.obj"
+"CMakeFiles/TicTacToe.dir/src/main.cpp.obj"
 
 # External object files for target TicTacToe
 TicTacToe_EXTERNAL_OBJECTS =
 
-TicTacToe.exe: CMakeFiles/TicTacToe.dir/main.cpp.obj
+TicTacToe.exe: CMakeFiles/TicTacToe.dir/src/main.cpp.obj
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/build.make
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/linkLibs.rsp
 TicTacToe.exe: CMakeFiles/TicTacToe.dir/objects1.rsp
