@@ -3,39 +3,38 @@
 
 using namespace std;
 
-class desk
-{
+class Desk {
 private:
     vector<vector<char>> crossZerosPos;
 public:
-    desk();
+    Desk();
     bool setSymbToPos(int line, int column, char symb);
     char getSymbByPos(int line, int column);
     void printDesk();
-    ~desk();
+    ~Desk();
 };
 
-desk::desk(){
+Desk::Desk(){
     for(int i = 0; i != 3; ++i) {
         vector<char> temp(3, ' ');
         crossZerosPos.push_back(temp);
     }
 }
 
-bool desk::setSymbToPos(int line, int column, char symb) {
+bool Desk::setSymbToPos(int line, int column, char symb) {
     if(getSymbByPos(line, column) != ' ') return false;
     crossZerosPos[line][column] = symb;
     return true;
 }
 
-char desk::getSymbByPos(int line, int column) {
+char Desk::getSymbByPos(int line, int column) {
     return crossZerosPos[line][column];
 }
 
-void desk::printDesk() {
+void Desk::printDesk() {
     for(int i = 0; i != 5; ++i) {
         if(i % 2 > 0) {
-            cout << "———————————";
+            cout << "-----------";
         } else {
             for(int j = 0; j != 5; ++j) {
                 if(j % 2 > 0) cout << "|";
@@ -46,8 +45,9 @@ void desk::printDesk() {
         }
         cout << endl;
     }
+    cout << endl;
 }
 
-desk::~desk()
+Desk::~Desk()
 {
 }
